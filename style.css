@@ -1,0 +1,67 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("image.jpeg");
+}
+.logo{
+    width: 12%;
+
+}
+.btn{
+    font-size: 20px;
+    padding: 10px 12px;
+    color: azure;
+    background-color: red;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav{
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 2vw;
+    padding-right: 5vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: antiquewhite;
+}
+select{
+    margin-left: 70%;
+    padding: 10px;
+}
+.content{
+    color: white;
+    position: absolute;
+    margin-top:8%;
+    margin-left:30% ;
+    text-align: center;
+
+}
+.content h1{
+    font-size: 50px;
+}
+.content h2{
+    font-size: 30px;
+}
+.mail{
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    background-color: rgb(30, 28, 28);
+    display: flex;
+    justify-content: space-between;
+}
+.mail input{
+    outline: none;
+    border: none;
+    padding: 15px 20px;
+    size: 1em;
+}
+.mail a{
+    height: fit-content;
+    background-color: red;
+    color: whitesmoke;
+    padding: 18px 12px;
+    text-decoration: none;
+}
